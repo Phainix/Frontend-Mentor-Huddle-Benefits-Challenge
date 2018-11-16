@@ -1,63 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with split benefits section</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Frontend Mentor | Huddle landing page with split benefits section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
 </head>
 <body>
-  Try it free
+    <header id="header" class="">
+        <div class="header-logo">
+            <img src="images/logo.svg" alt="">
+        </div>
+        <div class="header-actions">
+            <button type="button" class="btn text-pink shadow-pink">Try it free</button>
+        </div>
+    </header><!-- /header -->
+    <div id="main">
+        
 
-  Build The Community Your Fans Will Love
+        <h1 class="heading text-center text-dark-cyan">Build The Community Your Fans Will Love</h1>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
+        <p class="text-greyish-blue text-center description">Huddle re-imagines the way we build communities. You have a voice, but so does 
+        your audience. Create connections with your users as you engage in genuine discussion. </p>
 
-  Get Started For Free
+        <div class="d-flex justify-content-center get-started">
+            <button type="button" class="bg-gradient btn btn-lg text-white shadow no-border">Get Started For Free</button>
+        </div>
 
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+        <div class="mockup">
+            <img src="images/screen-mockups.svg" alt="">
+        </div>
 
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
+        <div class="benefits">
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <h5 class="heading text-dark-cyan">Grow Together</h5>
+                    <p class="text-greyish-blue benefit-desc">Generate meaningful discussions with your audience and build a strong, loyal community. 
+                    Think of the insightful conversations you miss out on with a feedback form. </p>
+                </div>
+                
+                <div class="benefit-item">
+                    <h5 class="heading text-dark-cyan">Flowing Conversations</h5>
+                    <p class="text-greyish-blue benefit-desc">You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+                    just-in-time loading for a more natural flow.</p>
+                </div>
 
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
+                <div class="benefit-item">
+                    <h5 class="heading text-dark-cyan">Your Users</h5>
+                    <p class="text-greyish-blue benefit-desc">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+                    once signed in to your app, your users can start chatting immediately.</p>
+                </div>
+            </div>
+            <div class="benefits-image">
+                <img src="images/illustration-your-users.svg" alt="">
+            </div>
+        </div>
 
-  Ready To Build Your Community?
-  Get Started For Free
+        <div class="build">
+            <h1 class="heading text-center text-dark-cyan">Ready To Build Your Community?</h1>
+            <button type="button" class="bg-gradient btn btn-lg text-white shadow no-border">Get Started For Free</button>
+        </div>
+    </div>
+    <footer class="bg-dark-cyan text-white">
+        <div class="footer-container">
+            <div class="footer-descprition">
+                <div class="footer-logo">
+                    <img src="images/logo-white.svg" alt="">
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit tincidunt risus eget 
+                    vestibulum. Integer vel ligula dictum.
+                </p>
+                <ul class="footer-icons">
+                    <li><i class="fa fa-facebook-square"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                    <li><i class="fa fa-twitter-square"></i></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <ul class="footer-link-item first">
+                    <li>About Us</li>
+                    <li>What We Do</li>
+                    <li>FAQ</li>
+                </ul>
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit tincidunt risus eget 
-  vestibulum. Integer vel ligula dictum.
-  
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  Subscribe
-
-  &copy; 2018 Huddle Copyright
-
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
-  </footer>
+                <ul class="footer-link-item second">
+                    <li>Career</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            
+            <div class="footer-subscribe">
+                <h5 class="text-normal">SUBSCRIBE</h5>
+                <form class="footer-form" action="" method="get" accept-charset="utf-8">
+                    <div class="input-group">
+                        <input type="text" name="" value="" placeholder="email@example.com" class="form-input">
+                        <button type="submit" class="btn bg-gradient text-white"><i class="fa fa-arrow-right"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer-copy text-center font80">
+            &copy; 2018 Huddle Copyright
+        </div>
+        <p class="attribution">
+            This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
+        </p>
+    </footer>
 </body>
 </html>

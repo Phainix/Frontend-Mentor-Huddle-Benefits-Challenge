@@ -1,0 +1,235 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+body {
+    font-size: 1.7vw;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+#header {
+    width: calc(100vw - 10vw);
+    padding: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    flex: 0 0 18vw;
+}
+.header-logo > img {
+    width: 100%;
+}
+.header-actions {
+	flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn {
+	padding: .6vw 1.5vw;
+    border: solid 1px;
+    font-size: 1.2vw;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    border-radius: .3vw;
+}
+.btn-lg {
+	padding: 1.8vw 6vw;
+	font-weight: 700;
+	border-radius: .5vw;
+	font-size: 1.3vw;
+}
+.shadow-pink {
+	box-shadow: 0px 0px 8px hsl(322, 100%, 83%);
+}
+.shadow {
+	box-shadow: 0px 3px 16px #bcbcbc;
+}
+#main {
+    width: calc(100vw - 10vw);
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+.description {
+	padding: 0vw 18vw;
+	margin: 1vw 0vw;
+}
+.d-flex {
+	display: flex;
+}
+.align-items-center {
+	align-items: center;
+}
+.justify-content-center {
+	justify-content: center;
+}
+.bg-gradient {
+    background-color: #ff52bf;
+    background-image: linear-gradient(to right top, #ff52bf, #ff62bd, #ff71bc, #ff7fbc, #ff8cbd);
+}
+.bg-dark-cyan {
+    background-color: hsl(192, 100%, 9%);
+}
+.margin-top2 {
+	margin-top: 2vw;
+}
+.no-border {
+	border: none;
+}
+.mockup {
+    display: flex;
+    justify-content: center;
+    padding: 6vw 9vw;
+}
+.mockup > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.get-started {
+	padding: 2vw 0vw;
+}
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    padding: 8vw 0vw;
+}
+.benefits-list {
+    flex: 0 0 45%;
+}
+.benefits-image {
+    flex: 0 0 50%;
+}
+.benefits-image img {
+	width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.benefit-desc {
+	font-size: 75%;
+	line-height: 1.6;
+}
+.benefit-item {
+	margin-bottom: 2vw;
+}
+.benefit-item .heading {
+	margin-bottom: 1.3vw;
+}
+.build {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+    padding-bottom: 5vw;
+}
+.footer-container {
+    width: calc(100vw - 10vw);
+    padding: 5vw;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.7;
+    letter-spacing: .2px
+}
+.footer-descprition {
+    flex: 0 0  30%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-links {
+    flex: 0 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.footer-link-item li {
+    line-height: 2.4;
+}
+.footer-subscribe {
+    flex: 0 0  30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-subscribe h5 {
+    margin-bottom: 2vw;
+}
+.input-group {
+    display: flex;
+    width: 100%;
+}
+.input-group input, .input-group button {
+    border: none;
+    border-radius: 0;
+}
+.input-group input {
+    flex:1;
+    border-top-left-radius: .2vw;
+    border-bottom-left-radius: .2vw;
+}
+.input-group button {
+    border-top-right-radius: .2vw;
+    border-bottom-right-radius: .2vw;
+}
+.form-input {
+    padding: .9vw 1vw;
+    flex: 0 0 55%;
+    border: none;
+    font-size: 1.15vw;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+input.form-input::placeholder {
+    color: hsl(208, 11%, 70%);
+}
+footer {
+    font-size: 75%;
+    background-image: url('../images/bg-footer-desktop.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.footer-logo {
+    width: 18vw;
+    margin-bottom: 3vw;
+}
+.footer-logo > img {
+    width: 100%;
+}
+.footer-icons {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    font-size: 200%;
+    margin-top: 2vw;
+}
+.footer-icons li {
+    padding: 0vw 1vw;
+}
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.footer-copy {
+    padding: 1.5vw;
+}
+
+
+
+
+
