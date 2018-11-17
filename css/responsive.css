@@ -1,0 +1,139 @@
+@media (max-width: 900px) {
+    body {
+        font-size: 2vw;
+    }
+    .header-logo {
+        flex: 0 0 20vw;
+    }
+    .footer-logo {
+        width: 20vw;
+    }
+    .description {
+        padding: 0vw 14vw;
+    }
+    .btn {
+        padding: .9vw 1.8vw;
+    }
+    .btn-lg {
+        padding: 2.1vw 8vw;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 3vw;
+        line-height: 1.7;
+    }
+    .header-logo {
+        flex: 0 0 30vw;
+    }
+    .footer-logo {
+        width: 30vw;
+    }
+    .description {
+        padding: 0vw 14vw;
+    }
+    .btn {
+        padding: 1.4vw 3.2vw;
+    }
+    .btn-lg {
+        padding: 2.4vw 9vw;
+    }
+    .description {
+        padding: 0vw 10vw;
+    }
+    #header {
+        width: calc(100vw - 20vw);
+        padding: 8vw 10vw;
+    }
+    .hide-sm {
+        display: none;
+    }
+    #main {
+        padding: 10vw 0vw;
+    }
+    .mockup {
+        padding: 8vw 5vw;
+    }
+    .benefits {
+        background: #f8fcff;
+        flex-direction: column-reverse;
+        padding: 8vw;
+    }
+    .benefits-image {
+        margin-bottom: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .benefits-image img {
+        width: 90%;
+    }
+    .benefit-desc {
+        line-height: 1.7;
+        font-size: 100%;
+    }
+    .benefit-item .heading {
+        margin-bottom: 3vw;
+        font-size: 150%;
+    }
+    .benefit-item {
+        margin-bottom: 5vw;
+    }
+    .footer-container {
+        width: calc(100vw - 16vw);
+        padding: 12vw 8vw;
+        flex-direction: column;
+    }
+    .footer-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer {
+        font-size: 100%;
+        background-image: url(../images/bg-footer-mobile.png);
+    }
+    .footer-container > div:nth-child(1) {
+        order: 2;
+    }
+    .footer-container > div:nth-child(2) {
+        order: 3;
+    }
+    .footer-container > div:nth-child(3) {
+        order: 1;
+    }
+    .footer-subscribe {
+        margin-bottom: 8vw;
+    }
+    .footer-link-item.first {
+        margin-bottom: 6vw;
+        margin-top: 4vw;
+    }  
+    .form-input {
+        padding: 2.5vw 4vw;
+    }
+}
+@media (max-width: 450px) {
+    body {
+        font-size: 3.6vw;
+        line-height: 1.7;
+    }
+    #header {
+        width: calc(100vw - 12vw);
+        padding: 8vw 6vw;
+    }
+    .header-logo {
+        flex: 0 0 39vw;
+    }
+    .footer-logo {
+        width: 39vw;
+        margin-bottom: 5vw;
+    }
+    .btn {
+        padding: 1.6vw 3.8vw;
+    }
+    .btn-lg {
+        padding: 3vw 12vw;
+    }
+     
+}
